@@ -21,8 +21,8 @@ body {
     position: fixed;
     z-index: 9998;
     overflow: visible;
-    padding: 10px;
-    &.smallbar {
+    padding: 10px;}
+    .smallbar {
       height: 50px;
       background-color: #fff;
       border-top-color: #A14D47;
@@ -34,6 +34,9 @@ body {
       display: inline-block;
       vertical-align: middle;
     }
+    /* nav.black {
+        background-color: aqua;
+    } */
    .navigation {
       width: 74.5%;
       margin-bottom: 0; 
@@ -45,7 +48,8 @@ body {
   .logo__image {
     transition: all .5s ease-in-out;
     height: 100px;
-    .smallbar & {
+  }
+    .smallbar  {
       height: 50px;
     }
   }
@@ -55,6 +59,7 @@ body {
     margin: 0;
     padding-left: 0;
     float: right;
+  }
     li {
       display: inline;
     }
@@ -66,12 +71,12 @@ body {
       text-decoration: none;
       text-transform: uppercase;
     }
-    .smallbar & a {
+    .smallbar  .a {
       border: 1px solid #2c3e50;
       color: #2c3e50;
     }
   
-    .smallbar & a.active {
+    .smallbar  a.active {
       font-weight: bold;
     }
   }
